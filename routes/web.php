@@ -12,5 +12,5 @@
 */
 
 Route::get('{any}', function ($any = '') {
-    return view('main');
+    return view('welcome');
 })->where('any', '.*');
